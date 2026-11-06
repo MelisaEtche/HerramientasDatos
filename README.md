@@ -82,8 +82,27 @@ Filtros Dinámicos: Segmentador por nivel de educación para alternar y comparar
 ​Descripción: Compara la clasificación predictiva del modelo (Estudiantes en riesgo: True / False) frente al resultado real de los alumnos (Pass Status: Pass / Fail).
 ​Interpretación: Facilita la evaluación de la efectividad del modelo de alerta temprana, permitiendo verificar qué proporción de los alumnos catalogados en riesgo efectivamente reprobaron y cuáles lograron aprobar.
 
-​4. Distribución General del Estado de Aprobación (Gráfico de Torta)
+4. Distribución General del Estado de Aprobación (Gráfico de Torta)
 ​Descripción: Representa la proporción total del rendimiento académico final de la cohorte analizada.
 ​Métricas clave:
 ​Aprobados (Pass): 77.39% (o 77.19% según segmentación global)
 ​Reprobados (Fail): 22.61%
+## Herramientas utilizadas
+
+- **Python** (pandas, matplotlib, seaborn)
+
+- **Google Colab**
+
+- **Power BI**
+
+- **GitHub**
+
+## Dashboard
+
+<img width="1076" height="648" alt="image" src="https://github.com/user-attachments/assets/42920f8f-1559-40b2-ba3c-6aa73a522aad" />
+
+## Licencia y autoría
+
+© 2026 - Proyecto académico realizado por Melisa Giselle Etcheverry 
+
+​

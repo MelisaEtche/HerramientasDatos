@@ -68,17 +68,21 @@ El dataset limpio, procesado y enriquecido con la variable lógica `alumnos_en_r
 
 ## Análisis del Tablero de Power BI: Predicción del Rendimiento Estudiantil
 ​El presente reporte visualiza los resultados del modelo predictivo y el análisis de los factores que influyen en el rendimiento académico de un total de 100.000 estudiantes, incorporando un segmento interactivo por Nivel de educación (High School y Undergraduate).
-​### 1. Tarjetas de Métricas Principales 
+
+1.Tarjetas de Métricas Principales 
 ​Total de Estudiantes: 100 mil registros analizados en el dataset.
 ​Porcentaje de Asistencia a Clases: Promedio general del 76%.
-​Filtros Dinámicos: Segmentador por nivel de educación para alternar y comparar el comportamiento entre los distintos grupos.
-​### 2. Relación entre Asistencia y Calificaciones (Gráfico de Dispersión)
+Filtros Dinámicos: Segmentador por nivel de educación para alternar y comparar el comportamiento entre los distintos grupos.
+
+​2. Relación entre Asistencia y Calificaciones (Gráfico de Dispersión)
 ​Descripción: Visualiza la correlación entre el porcentaje de asistencia a clases (eje horizontal) y la calificación porcentual de exámenes anteriores (eje vertical).
 ​Interpretación: Permite observar claramente cómo los estudiantes con menor porcentaje de asistencia se agrupan en las zonas de menores calificaciones, confirmando el impacto directo de la presencialidad en el éxito académico.
-​### 3. Validación del Modelo de "Estudiantes en Riesgo" (Gráfico de Barras)
+
+​3. Validación del Modelo de "Estudiantes en Riesgo" (Gráfico de Barras)
 ​Descripción: Compara la clasificación predictiva del modelo (Estudiantes en riesgo: True / False) frente al resultado real de los alumnos (Pass Status: Pass / Fail).
 ​Interpretación: Facilita la evaluación de la efectividad del modelo de alerta temprana, permitiendo verificar qué proporción de los alumnos catalogados en riesgo efectivamente reprobaron y cuáles lograron aprobar.
-​### 4. 🍰 Distribución General del Estado de Aprobación (Gráfico de Torta)
+
+​4. Distribución General del Estado de Aprobación (Gráfico de Torta)
 ​Descripción: Representa la proporción total del rendimiento académico final de la cohorte analizada.
 ​Métricas clave:
 ​Aprobados (Pass): 77.39% (o 77.19% según segmentación global)

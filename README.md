@@ -24,13 +24,6 @@ score`).
   * Nivel de educación de los estudiantes (`Education level`).
   * Estado final de aprobación (`Pass` / `Fail`).
 
- ## Tecnologías Utilizadas
-* **Lenguaje:** Python 3
-* **Entorno:** Google Colab / Jupyter Notebooks
-* **Librerías principales:**
-  * `pandas` (Carga, manipulación, limpieza e imputación de datos)
-  * `matplotlib` & `seaborn` (Visualización de datos y análisis exploratorio)
-
 ## Proceso de Limpieza e Imputación
 1. **Duplicados:** Se verificó la inexistencia de registros duplicados en el dataset.
 2. **Tratamiento de Nulos:** Se identificó que las variables clave presentaban menos del 10% de valores faltantes. Se optó por una estrategia de **imputación por la mediana** para las variables numéricas de interés:
@@ -87,6 +80,7 @@ Filtros Dinámicos: Segmentador por nivel de educación para alternar y comparar
 ​Métricas clave:
 ​Aprobados (Pass): 77.39% (o 77.19% según segmentación global)
 ​Reprobados (Fail): 22.61%
+
 ## Herramientas utilizadas
 
 - **Python** (pandas, matplotlib, seaborn)
